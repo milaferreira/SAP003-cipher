@@ -1,0 +1,77 @@
+@font-face {
+    font-family: fonte1;
+    src: url('fonte/Montserrat.ttf');
+}
+
+body {
+    background-image: url("matrix2.png");
+    background-position: right, top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(27, 22, 22);
+    word-break: break-all;
+    margin-top: 10%;
+} 
+  
+h1 {
+    font-family: 'fonte1';
+    font-size: 60px;
+    color: rgb(92, 93, 95);
+    font-weight: bold;
+    text-indent: 11%;
+}
+
+#corpo {
+    font-family: 'fonte1';
+    font-size: 20px;
+    text-indent: 10%;
+
+}
+
+#corpo2 {
+    text-indent: 15%;
+}
+
+#corpo3 {
+    text-indent: 14%;
+}
+
+#primeiraFrase {
+    width: 300px;
+    border-radius: 6px;
+    height: 20px;
+    font-family: 'fonte1';
+}
+
+#numero {
+    width: 150px;
+    border-radius: 6px;
+    height: 20px;
+    font-family: 'fonte1';
+}
+
+#botao {
+    border-radius: 6px;
+    font-family: 'fonte1';
+}
+
+#botao2 {
+    border-radius: 6px;
+    font-family: 'fonte1';
+}
+
+#resolver {
+    font-family: 'fonte1';
+    color: rgb(105, 105, 105);
+    font-size: 37px;
+    text-align: justify;
+    text-indent: 10%;
+}
+
+#result {
+    font-family: 'fonte1';
+    color: rgb(105, 105, 105);
+    font-size: 37px;
+    text-align: justify;
+    text-indent: 10%;
+}
